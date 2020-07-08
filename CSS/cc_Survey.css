@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+}
+#title {
+    text-align: center;
+}
+#description {
+    text-align: center;
+}
+#form-container {
+    text-align: center;
+    border-radius: 15px;
+    background-color: lightcoral;
+    width: 50%;
+    margin: auto;
+}
+#ER-footer{
+    background-color: ivory;
+    margin: 5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+#ER-footer-header{
+    padding-left: 3%;
+}
+#ER-footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ER-footer-link{
+    font-size: .67em;
+    
+}
+@media only screen and (max-width: 600px){
+    #ER-footer-div{
+        flex-direction: column;
+    }
+}
